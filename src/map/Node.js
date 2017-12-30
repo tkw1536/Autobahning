@@ -1,4 +1,4 @@
-import "./pos"
+import {Position} from "./pos"
 
 const SOURCE_NODE = 0
 const SINK_NODE = 1
@@ -17,3 +17,5 @@ class Node {
         this.type = type
     }
 }
+
+export {Node};

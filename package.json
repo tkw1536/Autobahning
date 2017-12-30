@@ -1,0 +1,27 @@
+{
+  "name": "autobahning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "npm-run-all": "^4.1.2",
+    "rollup": "^0.53.1",
+    "serve": "^6.4.3"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w", 
+    "dev": "npm-run-all --parallel start watch",
+    "start": "serve public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkw1536/Autobahning.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/tkw1536/Autobahning/issues"
+  },
+  "homepage": "https://github.com/tkw1536/Autobahning#readme"
+}
